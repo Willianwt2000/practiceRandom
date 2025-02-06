@@ -1,9 +1,13 @@
-//A=π⋅r 2 --- Area de un circulo
 
-function areaCircle(r: number): number {
-  const PI: number = Math.PI;
-  let area: number = PI * (r ** 2);
-  return area;
+// F=(°C× 5/9)+32  -- conversion de grado celcious a farenheig
+
+function gradoCelsius(c:number) {
+  const F = (c * (9/5) + 32)
+  console.log(`
+
+    `)
 }
 
-console.log(areaCircle(5));
+console.log(gradoCelsius(25));
+
+
