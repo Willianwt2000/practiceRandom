@@ -8,3 +8,5 @@ function gradoCelsius(c:number) {
 }
 
 console.log(gradoCelsius(25));
+
+
