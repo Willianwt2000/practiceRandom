@@ -20,4 +20,3 @@ function areaTriangle(base:number, altura:number): number {
 }
 
 console.log(areaTriangle(5,3))
-
