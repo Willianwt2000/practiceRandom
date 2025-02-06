@@ -1,4 +1,4 @@
-//A=π⋅r 2
+//A=π⋅r 2 --- Area de un circulo
 
 function areaCircle(r: number): number {
   const PI: number = Math.PI;
