@@ -1,7 +1,5 @@
-//A=π⋅r 2
-function areaCircle(r) {
-    var PI = Math.PI;
-    var area = PI * (Math.sqrt(r));
-    return area;
+// F=(°C× 5/9)+32
+function gradoCelsius(c) {
+    return (c * (9 / 5) + 32);
 }
-console.log(areaCircle(25));
+console.log(gradoCelsius(25));

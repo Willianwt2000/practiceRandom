@@ -1,9 +1,8 @@
-//A=π⋅r 2
+// F=(°C× 5/9)+32
 
-function areaCircle(r: number): number {
-  const PI: number = Math.PI;
-  let area: number = PI * (r ** 2);
-  return area;
+
+function gradoCelsius(c:number) {
+  return (c * (9/5) + 32);
 }
 
-console.log(areaCircle(5));
+console.log(gradoCelsius(25));
